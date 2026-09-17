@@ -15,5 +15,5 @@ jobs:
         env:
           ZOWE_USERNAME: ${{ secrets.ZOWE_USERNAME }}
           ZOWE_PASSWORD: ${{ secrets.ZOWE_PASSWORD }}
-       run: |
-        echo "Running COBOL Check"
+        run: |
+          echo "Running COBOL Check"
