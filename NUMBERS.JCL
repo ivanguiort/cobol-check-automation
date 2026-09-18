@@ -1,6 +1,6 @@
 //NUMBERSJ JOB 1,NOTIFY=&SYSUID
 //*******************************************************
-//* COMPILACIÓN Y ENLAZADO DEL PROGRAMA COBOL CON TESTS
+//* COMPILACION Y ENLAZADO DEL PROGRAMA COBOL CON TESTS
 //*******************************************************
 //COBRUN EXEC IGYWCL
 //COBOL.SYSIN DD DSN=&SYSUID..CBL(NUMBERS),DISP=SHR
