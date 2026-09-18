@@ -1,1 +1,7 @@
+TestSuite 'Pruebas unitarias para el programa NUMBERS'
+
+TestCase 'Validar que el contador sume correctamente'
+    MOVE 10 TO NUM-INPUT
+    PERFORM EVALUAR-NUMERO
+    EXPECT RESULTADO-CONTADOR TO BE 11
 
